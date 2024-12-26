@@ -49,7 +49,7 @@ def convert_speed(val,from_unit,to_unit):
     }
     return val * conversion[to_unit]/conversion[from_unit]
     
-api_key="ad2907e38777de34ac7378da"
+api_key="api"
 def convert_currency(val,from_unit,to_unit):
     if from_unit==to_unit:
         return val
